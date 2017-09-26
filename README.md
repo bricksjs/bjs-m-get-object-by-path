@@ -1,1 +1,38 @@
-# bricksjs-module-get-object-by-path
+## get-object-path
+
+Return the value at given object path and parent path.
+
+## Install
+
+```bash
+$ npm install bjs-m-gobp
+```
+
+## Usage
+
+```js
+var getObject = require('bjs-m-gobp');
+
+var context = {
+  foo: {
+    bar: {
+      baz: function() {
+      }
+    }
+};
+
+// Use defined context
+getObject('foo.bar.baz', context);
+
+// Use global context
+getObject('foo.bar.baz');
+```
+
+## Returns
+
+```js
+{
+  path: context.foo.bar
+  fullPath: context.foo.bar.baz
+}
+```
