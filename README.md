@@ -1,4 +1,4 @@
-## get-object-path
+## bricksjs-module-get-object-by-path
 
 Return the value at given object path and parent path.
 
