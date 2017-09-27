@@ -11,7 +11,7 @@ $ npm install @bricksjs/m-gobp
 ## Usage
 
 ```js
-var getObject = require('bjs-m-gobp');
+var getObject = require('@bricksjs/m-gobp');
 
 var context = {
   foo: {
