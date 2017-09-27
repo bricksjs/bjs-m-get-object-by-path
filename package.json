@@ -1,5 +1,5 @@
 {
-  "name": "bjs-m-gobp",
+  "name": "@bricksjs/m-gobp",
   "version": "0.1.0",
   "description": "Get object by path with or without context",
   "keywords":[
@@ -10,7 +10,7 @@
   ],
   "author": "Nicolas RAIBAUD",
   "license": "MIT",
-  "repository": "bricksjs/bricksjs-module-get-object-by-path",
+  "repository": "bricksjs/bjs-m-get-object-by-path",
   "scripts": {
     "test": "ospec",
     "lint": "eslint .",
