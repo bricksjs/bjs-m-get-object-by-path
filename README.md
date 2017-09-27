@@ -1,4 +1,4 @@
-## bricksjs-module-get-object-by-path
+## bjs-m-get-object-by-path
 
 Return the value at given object path and parent path.
 
@@ -19,10 +19,19 @@ var context = {
       baz: function() {
       }
     }
+  }
 };
 
 // Use defined context
 getObject('foo.bar.baz', context);
+
+
+process.foo = {
+    bar: {
+      baz: function() {
+      }
+    }
+};
 
 // Use global context
 getObject('foo.bar.baz');
