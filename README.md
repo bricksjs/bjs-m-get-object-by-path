@@ -1,4 +1,4 @@
-## bjs-m-get-object-by-path
+## module-get-object-by-path
 
 Return the value at given object path and parent path.
 
