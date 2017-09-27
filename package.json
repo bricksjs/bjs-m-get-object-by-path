@@ -10,7 +10,7 @@
   ],
   "author": "Nicolas RAIBAUD",
   "license": "MIT",
-  "repository": "bricksjs/bjs-m-get-object-by-path",
+  "repository": "bricksjs/module-get-object-by-path",
   "scripts": {
     "test": "ospec",
     "lint": "eslint .",
