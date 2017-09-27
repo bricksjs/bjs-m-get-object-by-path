@@ -5,7 +5,7 @@ Return the value at given object path and parent path.
 ## Install
 
 ```bash
-$ npm install bjs-m-gobp
+$ npm install @bricksjs/m-gobp
 ```
 
 ## Usage
